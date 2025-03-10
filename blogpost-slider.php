@@ -1,7 +1,7 @@
 function custom_property_slider() {
     $args = array(
-        'post_type'      => 'post', // Cambia esto si usas un custom post type
-        'posts_per_page' => 1000, // Número de casas a mostrar
+        'post_type'      => 'post', 
+        'posts_per_page' => 1000,
     );
     
     $query = new WP_Query($args);
